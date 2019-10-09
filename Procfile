@@ -1,1 +1,1 @@
-web: openfisca serve --port $PORT
+web: gunicorn openfisca_canada.wsgi --log-file -
